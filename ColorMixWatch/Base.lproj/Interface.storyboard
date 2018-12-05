@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="ColorMixWatch" customModuleProvider="target">
+                    <items>
+                        <label width="136" height="0.20000000000000001" alignment="center" text="Долг" textAlignment="center" id="mZp-HV-M7a"/>
+                        <group width="1" height="0.59999999999999998" alignment="left" id="Yfs-tj-7Ln">
+                            <items>
+                                <button width="0.40000000000000002" height="1" alignment="left" verticalAlignment="center" title="+" id="WSC-xi-1ez">
+                                    <connections>
+                                        <action selector="plusDidTap" destination="AgC-eL-Hgc" id="st3-QL-3t4"/>
+                                    </connections>
+                                </button>
+                                <group width="0.20000000000000001" height="1" alignment="left" layout="vertical" id="HcH-Xe-Xul">
+                                    <items>
+                                        <button width="1" height="0.20000000000000001" alignment="left" title="1" id="4c0-QD-dCP">
+                                            <fontDescription key="font" type="system" pointSize="10"/>
+                                            <connections>
+                                                <action selector="firstBut" destination="AgC-eL-Hgc" id="6eD-bW-8Fz"/>
+                                            </connections>
+                                        </button>
+                                        <button width="1" height="0.20000000000000001" alignment="left" title="2" id="zwA-An-kC5">
+                                            <fontDescription key="font" type="system" pointSize="10"/>
+                                            <connections>
+                                                <action selector="secondBut" destination="AgC-eL-Hgc" id="eBb-tn-zxa"/>
+                                            </connections>
+                                        </button>
+                                        <button width="1" height="0.20000000000000001" alignment="left" title="5" id="TjL-cb-OzU">
+                                            <fontDescription key="font" type="system" pointSize="10"/>
+                                            <connections>
+                                                <action selector="thirdBut" destination="AgC-eL-Hgc" id="jcU-4B-8dV"/>
+                                            </connections>
+                                        </button>
+                                        <button width="1" height="0.20000000000000001" alignment="left" title="25" id="qED-8v-QAu">
+                                            <fontDescription key="font" type="system" pointSize="10"/>
+                                            <connections>
+                                                <action selector="fourthBut" destination="AgC-eL-Hgc" id="d1h-df-Sqp"/>
+                                            </connections>
+                                        </button>
+                                        <button width="1" height="0.20000000000000001" alignment="left" title="100" id="K1z-hE-hxy">
+                                            <fontDescription key="font" type="system" pointSize="10"/>
+                                            <connections>
+                                                <action selector="fifthBut" destination="AgC-eL-Hgc" id="csf-jI-yBg"/>
+                                            </connections>
+                                        </button>
+                                    </items>
+                                </group>
+                                <button width="0.40000000000000002" height="1" alignment="right" verticalAlignment="center" title="-" id="oeR-e0-QOh">
+                                    <connections>
+                                        <action selector="minusDidTap" destination="AgC-eL-Hgc" id="9wX-C2-RY1"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label width="1" height="33" alignment="center" verticalAlignment="bottom" text="Сумма" textAlignment="center" id="O7x-2k-pCo"/>
+                    </items>
+                    <menu key="menu" id="mMx-i8-RyZ">
+                        <items>
+                            <menuItem title="Очистить" icon="repeat" id="5Ll-ag-fUA">
+                                <connections>
+                                    <action selector="clearSum" destination="AgC-eL-Hgc" id="cJ0-J8-pqT"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="firstLabel" destination="mZp-HV-M7a" id="grI-0a-Ros"/>
+                        <outlet property="minusButton" destination="oeR-e0-QOh" id="a4E-Gs-mMU"/>
+                        <outlet property="plusButton" destination="WSC-xi-1ez" id="EKe-R4-bOk"/>
+                        <outlet property="sumLabel" destination="O7x-2k-pCo" id="juF-rR-VlJ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="219.69230769230771" y="344.79487179487182"/>
+        </scene>
+    </scenes>
+</document>

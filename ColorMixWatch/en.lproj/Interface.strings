@@ -1,0 +1,24 @@
+
+/* Class = "WKInterfaceMenuItem"; title = "Очистить"; ObjectID = "5Ll-ag-fUA"; */
+"5Ll-ag-fUA.title" = "Очистить";
+
+/* Class = "WKInterfaceButton"; title = "100"; ObjectID = "K1z-hE-hxy"; */
+"K1z-hE-hxy.title" = "100";
+
+/* Class = "WKInterfaceLabel"; text = "Сумма"; ObjectID = "O7x-2k-pCo"; */
+"O7x-2k-pCo.text" = "Сумма";
+
+/* Class = "WKInterfaceButton"; title = "14"; ObjectID = "TjL-cb-OzU"; */
+"TjL-cb-OzU.title" = "14";
+
+/* Class = "WKInterfaceButton"; title = "+"; ObjectID = "WSC-xi-1ez"; */
+"WSC-xi-1ez.title" = "+";
+
+/* Class = "WKInterfaceLabel"; text = "Долг Димана"; ObjectID = "mZp-HV-M7a"; */
+"mZp-HV-M7a.text" = "Долг Димана";
+
+/* Class = "WKInterfaceButton"; title = "-"; ObjectID = "oeR-e0-QOh"; */
+"oeR-e0-QOh.title" = "-";
+
+/* Class = "WKInterfaceButton"; title = "50"; ObjectID = "qED-8v-QAu"; */
+"qED-8v-QAu.title" = "50";
